@@ -1,0 +1,166 @@
+.logo{
+	margin-top: 2rem;
+	margin-left: 5rem;
+	
+}
+.btn{
+	align-content: ;
+	color: black;
+	background-color: white;
+	
+
+}
+.history{
+	 margin-left: 8rem;
+     margin-right: 5rem;
+}
+.main{
+	 margin-left: 8rem;
+     margin-right: 5rem;
+}
+.pics{
+	 margin-left: 8 rem;
+     margin-right: 5rem;
+}
+#pic{
+	 margin-left: 5rem;
+     margin-right: 5rem;
+}
+.row{
+	 margin-left: 8rem;
+     margin-right: 5rem;
+}
+
+.history-images{
+float: right;
+wi: 200rem;
+}
+
+.fling-minislide {width:80%;
+                  height:600px;
+                  margin-top: 4rem;
+                  margin-left: 3rem;
+                  margin-right: 5rem;
+                  overflow:hidden; 
+                  position:relative;
+
+                  align-content: center; }
+
+.fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(3){animation-delay:0s;}
+.fling-minislide img:nth-child(2){animation-delay:5s;}
+.fling-minislide img:nth-child(1){animation-delay:10s;}
+
+
+.column {
+	float: left;
+	width: 33.33%;
+}
+.row img: hover{
+	cursor: crosshair;
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+body
+{
+  padding: 0;
+  margin-right: 4rem;
+  /* make it look decent enough */
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+a:hover
+{
+  color: tomato;
+}
+#reload{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 50%;
+	align-self: center;
+}
+
+
+
+#footer{
+    margin-top: 7%;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    display: flex;
+    background-color: lightgray;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#address{
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+
+
+#links_fafa{
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+
+#links_fafa i{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#links_fafa i:hover{
+    color: aquamarine;
+}
+
+#contact{
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+}
+
+.desnew{
+    font-family: 'Roboto Mono';
+    margin-top: 3%;
+    font-size: 90%;
+    color: gray;
+}
+
+.addflex{
+    display: flex;
+}
+
+#arrow{
+    position: fixed;
+    z-index: 5;
+    bottom: 5%;
+    right: 1%;
+}
+
+
+#arrow i{
+    color: black;
+    font-size: 150%;
+}
+.top{
+	
+	top: 0;
+}
+
+
